@@ -3,7 +3,6 @@ layout: default
 title: GeekFest
 ---
 
-
 <header class="main-header no-cover geekfest">
 <nav class="main-nav overlay clearfix">
     <a class="back-button icon-arrow-left" href="/">Home</a>
@@ -29,9 +28,7 @@ title: GeekFest
     <header class="post-header">
         <h2 class="post-title"><a href="{{ post.url }}">{{ post.title }}</a></h2>
     </header>
-    <section class="post-excerpt">
         {{ post.content }}
-    </section>
     
 </article>
 {% endif %}
