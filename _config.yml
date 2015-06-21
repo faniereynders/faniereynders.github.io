@@ -1,0 +1,17 @@
+name: Fanie Reynders
+description: Code. Build. Blog.
+meta_description: "Your New Jekyll Site, Blogging about stuffs"
+paginate_path: "/blog/page:num/"
+permalink: pretty 
+markdown: redcarpet
+excerpt_separator: <!--more-->
+highlighter: pygments
+logo: /assets/images/profile.png
+paginate: 15
+baseurl: /
+domain_name: 'http://yourblog-domain.com'
+google_analytics: 'UA-XXXXXXXX-X'
+
+# Details for the RSS feed generator
+url:            'blog url'
+author:         'Fanie Reynders'
