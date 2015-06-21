@@ -32,15 +32,7 @@ title: GeekFest
     <section class="post-excerpt">
         {{ post.content }}
     </section>
-    <footer class="post-meta">
-        {% if site.author %}
-            <img class="author-thumb" src="/assets/images/profile.png" alt="Author's profile picture" nopin="nopin" />
-            {{ site.author }}
-        {% endif %}
-        <time class="post-date" datetime="{{ post.date | date:"%Y-%m-%d" }}">
-            {{ post.date | date_to_string }}
-        </time> 
-    </footer>
+    
 </article>
 {% endif %}
 {% endfor %}
