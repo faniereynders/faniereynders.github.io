@@ -15,5 +15,5 @@ github_username: faniereynders
 google_analytics: 'UA-XXXXXXXX-X'
 
 # Details for the RSS feed generator
-url:            'blog url'
+url:            'http://reynders.co'
 author:         'Fanie Reynders'
