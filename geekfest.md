@@ -1,29 +1,47 @@
 ---
-layout: page
+layout: default
 title: GeekFest
 ---
 
-{% for post in site.posts | limit: 5 %}
+
+<header class="main-header no-cover geekfest">
+<nav class="main-nav overlay clearfix">
+    <a class="back-button icon-arrow-left" href="/">Home</a>
+    {% include menu.html %}
+    
+</nav>
+<div class="vertical">
+    <div class="main-header-content inner">
+        <h1 class="page-title">GeekFest</h1>
+        <h2 class="page-description">
+            Screencasts for developers
+        </h2>
+    </div>
+</div>
+<a class="scroll-down icon-arrow-left" href="#content" data-offset="-45"><span class="hidden">Scroll Down</span></a>
+</header>
+
+<main id="content" class="content" role="main">
+{% for post in site.posts %}
+{% if post.tags contains "GeekFest" %}
 
 <article class="post">
     <header class="post-header">
         <h2 class="post-title"><a href="{{ post.url }}">{{ post.title }}</a></h2>
     </header>
     <section class="post-excerpt">
-        {{ post.excerpt }} <a class="read-more" href="{{ post.url }}">&raquo;</a>
+        {{ post.content }}
     </section>
     <footer class="post-meta">
         {% if site.author %}
             <img class="author-thumb" src="/assets/images/profile.png" alt="Author's profile picture" nopin="nopin" />
             {{ site.author }}
         {% endif %}
-        {% if post.categories.size > 0 %} 
-            {{ post.categories | array_to_sentence_string | prepend: 'on ' }} 
-        {% endif %}
         <time class="post-date" datetime="{{ post.date | date:"%Y-%m-%d" }}">
             {{ post.date | date_to_string }}
         </time> 
     </footer>
 </article>
-
+{% endif %}
 {% endfor %}
+</main>

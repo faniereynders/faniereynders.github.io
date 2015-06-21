@@ -30,3 +30,19 @@
 i.fa {
 	margin-right:10px;
 }
+
+.geekfest{
+	background-color: rgb(184,14,15)!important;
+	
+}
+.geekfest .page-title, .geekfest .page-description,.geekfest .site-button, .geekfest .back-button{
+	color: #fff!important;
+}
+
+.geekfest .page-description,.geekfest .site-button, .geekfest .back-button{
+border:none!important;	
+}
+
+.geekfest .main-nav.overlay a:hover{
+	background: rgb(134,14,15)
+}
