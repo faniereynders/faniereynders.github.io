@@ -3,4 +3,27 @@ layout: page
 title: GeekFest
 ---
 
-This is GeekFest
+{% for post in site.posts | limit: 5 %}
+
+<article class="post">
+    <header class="post-header">
+        <h2 class="post-title"><a href="{{ post.url }}">{{ post.title }}</a></h2>
+    </header>
+    <section class="post-excerpt">
+        {{ post.excerpt }} <a class="read-more" href="{{ post.url }}">&raquo;</a>
+    </section>
+    <footer class="post-meta">
+        {% if site.author %}
+            <img class="author-thumb" src="/assets/images/profile.png" alt="Author's profile picture" nopin="nopin" />
+            {{ site.author }}
+        {% endif %}
+        {% if post.categories.size > 0 %} 
+            {{ post.categories | array_to_sentence_string | prepend: 'on ' }} 
+        {% endif %}
+        <time class="post-date" datetime="{{ post.date | date:"%Y-%m-%d" }}">
+            {{ post.date | date_to_string }}
+        </time> 
+    </footer>
+</article>
+
+{% endfor %}
