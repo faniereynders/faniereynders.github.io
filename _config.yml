@@ -1,6 +1,6 @@
 name: Fanie Reynders
 description: Code. Build. Blog.
-meta_description: "Your New Jekyll Site, Blogging about stuffs"
+meta_description: "Writing about technical stuffs"
 paginate_path: "/blog/page:num/"
 permalink: pretty 
 markdown: redcarpet
