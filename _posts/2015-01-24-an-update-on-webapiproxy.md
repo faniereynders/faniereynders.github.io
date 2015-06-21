@@ -74,7 +74,7 @@ The recent release includes support for abstracted HTTP response messages with <
 [ResponseType(typeof(Person))]
 public IHttpActionResult Get(int id)
 {
-return Ok(person);
+	return Ok(person);
 }
 ```
 
