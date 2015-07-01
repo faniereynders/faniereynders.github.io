@@ -1,6 +1,6 @@
 ---
 layout: post
-title: GeekFest #7 - Poking around in Power BI
+title: "GeekFest #7 - Poking around in Power BI"
 author: Fanie Reynders
 tags:
 - Power BI
@@ -15,4 +15,4 @@ In this episode I talk to Cecil du Toit about Microsoft Power BI. We poke around
 
 <!--more-->
 
-<iframe allowfullscreen="" frameborder="0" height="315" src="//youtu.be/FTSmNKkia2w" width="560"></iframe>
+<iframe allowfullscreen="" frameborder="0" height="315" src="https://www.youtube.com/embed/FTSmNKkia2w" width="560"></iframe>
