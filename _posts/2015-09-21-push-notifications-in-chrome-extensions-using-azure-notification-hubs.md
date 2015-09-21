@@ -47,26 +47,26 @@ Assumingly you've already signed up for Microsoft Azure, go to the Azure Portal 
 
 On the *Service Bus* section click *Create*:
 
-![](~/post-images/21-sep-2015/new-ns.png)
+![]({{ site.url }}/post-images/21-sep-2015/new-ns.png)
 
 Next, fill in an unique name that will identify your namespace and choose *Notification Hub* as the type. You can also set the region and applicable subscription if you want.
 
-![](//post-images/21-sep-2015/new-ns-box.png)
+![]({{ site.url }}/post-images/21-sep-2015/new-ns-box.png)
 
 After the namespace is created, open it by clicking on its name and then click *Create a new notification hub* from the *Notification Hubs* section.
 
-![](//post-images/21-sep-2015/new-nh.png)
+![]({{ site.url }}/post-images/21-sep-2015/new-nh.png)
 
 You will be prompted for a Hub name, region, subscription and namespace.
 
-![](//post-images/21-sep-2015/new-nh-box.png)
+![]({{ site.url }}/post-images/21-sep-2015/new-nh-box.png)
 
 Submit the details by clicking the *Create a new notification hub* button. We now should have a Notification Hub called *Fixxup-Live* inside the *Fixxup* namespace.
 
 ## 2. Take note of the connection string
 Open the details of the Notification Hub and then click on the *View Connection String* link.
 
-![](//post-images/21-sep-2015/view-connection.png)
+![]({{ site.url }}/post-images/21-sep-2015/view-connection.png)
 
 You'll notice two connection strings or SAS (Shared Access Signature) tokens:
 - DefaultListenSharedAccessSignature - for read-only use by client app
