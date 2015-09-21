@@ -47,7 +47,7 @@ Assumingly you've already signed up for Microsoft Azure, go to the Azure Portal 
 
 On the *Service Bus* section click *Create*:
 
-![](//post-images/21-sep-2015/new-ns.png)
+![](~/post-images/21-sep-2015/new-ns.png)
 
 Next, fill in an unique name that will identify your namespace and choose *Notification Hub* as the type. You can also set the region and applicable subscription if you want.
 
