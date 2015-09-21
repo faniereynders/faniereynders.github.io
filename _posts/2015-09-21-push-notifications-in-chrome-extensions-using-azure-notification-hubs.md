@@ -32,7 +32,7 @@ So I thought it would be fun creating this guide to make use of [Azure Notificat
 ## Overview of push notifications
 ![Overview of how push notifications work](https://acomdpsstorage.blob.core.windows.net/dpsmedia-prod/azure.microsoft.com/en-us/documentation/articles/notification-hubs-overview/20150831045959/registration-diagram.png)
 
-*Image source: https://azure.microsoft.com/en-us/documentation/articles/notification-hubs-overview*
+*Image source: [](https://azure.microsoft.com/en-us/documentation/articles/notification-hubs-overview)*
 
 As you can see, the app back-end is responsible for keeping track and storing of PNS (Post Notification Service) handle registrations. 
 
@@ -40,10 +40,10 @@ By using Azure Notification Hubs we move the management of PNS registrations to 
 
 ![Overview of push notifications using Azure Notification Hubs](https://acomdpsstorage.blob.core.windows.net/dpsmedia-prod/azure.microsoft.com/en-us/documentation/articles/notification-hubs-overview/20150831045959/notification-hub-diagram.png)
 
-*Image source: https://azure.microsoft.com/en-us/documentation/articles/notification-hubs-overview*
+*Image source: [](https://azure.microsoft.com/en-us/documentation/articles/notification-hubs-overview)*
 
 ## 1. Create a Notification Hub
-Assumingly you've already signed up for Microsoft Azure, go to the Azure Portal by pointing your browser to https://manage.windowsazure.com.
+Assumingly you've already signed up for Microsoft Azure, go to the Azure Portal by pointing your browser to [](https://manage.windowsazure.com).
 
 On the *Service Bus* section click *Create*:
 
