@@ -38,9 +38,9 @@ As you can see, the app back-end is responsible for keeping track and storing of
 
 By using Azure Notification Hubs, we move the management of PNS registrations to an external managed service.
 
-![Overview of push notifications using Azure Notification Hubs](https://acomdpsstorage.blob.core.windows.net/dpsmedia-prod/azure.microsoft.com/en-us/documentation/articles/notification-hubs-overview/20150831045959/notification-hub-diagram.png)
+![Overview of push notifications using Azure Notification Hubs](https://i-msdn.sec.s-msft.com/dynimg/IC702622.png)
 
-*Image source: [https://azure.microsoft.com/en-us/documentation/articles/notification-hubs-overview](https://azure.microsoft.com/en-us/documentation/articles/notification-hubs-overview)*
+*Image source: [https://msdn.microsoft.com/en-us/library/azure/dn530747.aspx](https://msdn.microsoft.com/en-us/library/azure/dn530747.aspx)*
 
 ## 1. Create a Notification Hub
 Assumingly you've already signed up for Microsoft Azure, go to the Azure Portal by pointing your browser to [https://manage.windowsazure.com](https://manage.windowsazure.com).
