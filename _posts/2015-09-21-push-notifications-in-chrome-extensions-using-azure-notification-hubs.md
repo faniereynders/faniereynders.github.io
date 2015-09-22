@@ -11,13 +11,13 @@ tags:
 - Toast notifications
 - Push notifications
 ---
-In the past couple of months I've been co-organizing a monthly user group called [Fixxup](http://fixxup.nl), to create a community platform for techies out there to share their knowledge, listen to their peers or even just enjoy the social living by having a beer or two.
+In the past couple of months, I've been co-organizing a monthly user group called [Fixxup](http://fixxup.nl), to create a community platform for techies out there to share their knowledge, listen to their peers or even just enjoy the social living by having a beer or two.
 
-Fixxup also has a [website hosted on GitHub](https://github.com/Fixxup/fixxup.github.io) Pages and we recently started to [live stream our sessions](http://fixxup.nl/live) to the rest of the world. When organizing such events it's important to do the proper marketing to target the right audience. 
+Fixxup also has a [website hosted on GitHub](https://github.com/Fixxup/fixxup.github.io) Pages and we recently started to [live stream our sessions](http://fixxup.nl/live) to the rest of the world. When organizing such events, it's important to do the proper marketing to target the right audience. 
 
-Although we are making use of social media to promote these events, I wanted an alternative way to get people's attention in realtime; so I built a [Chrome Extension](https://developer.chrome.com/extensions) called Fixxup Live that will only do one thing: Receive real-time push notifications when we're broadcasting live.
+Although we are making use of social media to promote these events, I wanted an alternative way to get people's attention in real-time; so I built a [Chrome Extension](https://developer.chrome.com/extensions) called Fixxup Live that will only do one thing: Receive real-time push notifications when we're broadcasting live.
 
-> The code is open source and [available on Github](https://github.com/Fixxup/live-notifier)
+> The code is open source and [available on GitHub](https://github.com/Fixxup/live-notifier)
 
 So I thought it would be fun creating this guide to make use of [Azure Notification Hubs](https://azure.microsoft.com/en-us/documentation/articles/notification-hubs-overview) for receiving push notifications on any platform, in this case Google Chrome.
 
@@ -36,7 +36,7 @@ So I thought it would be fun creating this guide to make use of [Azure Notificat
 
 As you can see, the app back-end is responsible for keeping track and storing of PNS (Post Notification Service) handle registrations. 
 
-By using Azure Notification Hubs we move the management of PNS registrations to an external managed service.
+By using Azure Notification Hubs, we move the management of PNS registrations to an external managed service.
 
 ![Overview of push notifications using Azure Notification Hubs](https://acomdpsstorage.blob.core.windows.net/dpsmedia-prod/azure.microsoft.com/en-us/documentation/articles/notification-hubs-overview/20150831045959/notification-hub-diagram.png)
 
@@ -77,9 +77,9 @@ Make a note of the *DefaultListenSharedAccessSignature*.
 ## 3. Create a Chrome Extension
 By not going into too much detail on how to create a Chrome Extension, I am just quickly going to run through some code snippets of the actual extension.
 
-> I've committed the full intial (working) version [on GitHub](https://github.com/Fixxup/live-notifier), so go check it out
+> I've committed the full initial (working) version [on GitHub](https://github.com/Fixxup/live-notifier), so go check it out
 
-The starting point of the extension is *start.js* which calls the `start()` function in the *app* module that gets injected in using RequireJs.
+The starting point of the extension is *start.js* which calls the `start()` function in the *app* module that gets injected in using [RequireJs](http://requirejs.org).
 
 ```javascript
 //...
