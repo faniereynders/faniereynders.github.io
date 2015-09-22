@@ -354,7 +354,7 @@ private static async Task sendNotificationAsync(string message)
 > Instead of using Newtonsoft Json's `JsonConvert` you could just send a normal string payload.
 
 ## That's all folks!
-There you have it, it is that easy receiving push notifications in Chrome Extensions with Azure Notification Hubs.
+There you have it; it is that easy receiving push notifications in Chrome Extensions with Azure Notification Hubs.
 
 *Till next time!*
 
