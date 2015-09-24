@@ -61,7 +61,7 @@ Once it has started, sit back and watch results come in at real time:
 
 When it's finished you can analize the results or even re-run the test.
 
-*That's all to it*
+*Till next time!*
 
 (@FanieReynders)[https://twitter.com/faniereynders]
 
