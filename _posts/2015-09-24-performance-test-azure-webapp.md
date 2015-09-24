@@ -8,6 +8,7 @@ tags:
   - Web App
   - Performance
   - Load test
+title: Performance test Azure Web Apps
 ---
 
 
@@ -57,7 +58,7 @@ For this example we use a user load of 500 users and duration of 5 minutes. Clic
 
 Once it has started, sit back and watch results come in at real time:
 
-...
+![snip_20150924151750.png]({{site.baseurl}}/_posts/snip_20150924151750.png)
 
 When it's finished you can analize the results or even re-run the test.
 
