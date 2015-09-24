@@ -51,5 +51,7 @@ You will then be prompted for some details about the test, like: The name, gener
 
 You can test the performance of your Web App by generating load from the same data center as your Web App (internal load) or even from a different data center (external load).
 
+For this example we use a user load of 500 users and duration of 5 minutes. Click *Run test* to start.
+
 
 
