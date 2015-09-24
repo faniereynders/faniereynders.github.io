@@ -16,4 +16,5 @@ google_analytics: 'UA-64349659-1'
 
 # Details for the RSS feed generator
 url:            'http://reynders.co'
+baseurl:        'http://reynders.co'
 author:         'Fanie Reynders'
