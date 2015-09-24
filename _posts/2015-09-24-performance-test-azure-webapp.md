@@ -35,5 +35,21 @@ When opening the *Tools* section we see the new functionality right at our finge
 
 > There's a difference between Performance Monitoring and Performance Testing. The former applies to the existing Application Insights and the latter to the new Performance feature which is currently in preview.
 
-Click *Performance test* that will show a list of present/past tests. 
+Click *Performance Test* that will show a list of recent tests. 
+
+![snip_20150924143858.png]({{site.baseurl}}/_posts/snip_20150924143858.png)
+
+> Performance test needs to be linked with a Visual Studio Online account.
+
+To create a new test, click *New*:
+
+![snip_20150924144934.png]({{site.baseurl}}/_posts/snip_20150924144934.png)
+
+You will then be prompted for some details about the test, like: The name, generate load from, user load and duration.
+
+![snip_20150924145251.png]({{site.baseurl}}/_posts/snip_20150924145251.png)
+
+You can test the performance of your Web App by generating load from the same data center as your Web App (internal load) or even from a different data center (external load).
+
+
 
