@@ -9,7 +9,7 @@ highlighter: pygments
 logo: /assets/images/profile.png
 paginate: 15
 baseurl: /
-domain_name: 'http://yourblog-domain.com'
+domain_name: 'http://reynders.co'
 twitter_username: FanieReynders
 github_username: faniereynders
 google_analytics: 'UA-64349659-1'
