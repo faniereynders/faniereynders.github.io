@@ -29,6 +29,7 @@ Notice a new section on the Web App details window called *Tools*:
 ![snip_20150924143524.png]({{site.url}}/post-images/snip_20150924143524.png)
 
 When opening the *Tools* section we see the new functionality right at our finger tips. Some of the features include:
+
 - Live HTTP Traffic analyzer (under Troubleshoot)
 - Performance Monitoring
 - Process Explorer
