@@ -4,12 +4,12 @@ title: "GeekFest #9 - What's new in C# 6"
 author: Fanie Reynders
 tags:
 - Microsoft
-- "CSharp 6"
+- "C# 6"
 - Roslyn
 - .NET
 - GeekFest
 ---
-We chat to .NET MVP Jalpesh Vadgama about some of the new features that was released in the recent version of C# 6. [Watch it here]({% post_url 2015-10-1-2015-10-1-geekfest-9-whats-new-in-csharp-6 %}).
+We chat to .NET MVP Jalpesh Vadgama about some of the new features that was released in the recent version of C# 6. [Watch it here]({% post_url 2015-10-1-geekfest-9-whats-new-in-csharp-6 %}).
 
 <!--more-->
 <iframe allowfullscreen="" frameborder="0" height="315" src="//www.youtube.com/embed/yLLH61DiwHk" width="560"></iframe>
