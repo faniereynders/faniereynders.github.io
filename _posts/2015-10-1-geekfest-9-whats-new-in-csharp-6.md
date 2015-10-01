@@ -7,6 +7,7 @@ tags:
 - "C# 6"
 - Roslyn
 - .NET
+- GeekFest
 ---
 We chat to .NET MVP Jalpesh Vadgama about some of the new features that was released in the recent version of C# 6. [Watch it here]({% post_url 2015-10-1-2015-10-1-geekfest-9-whats-new-in-csharp-6 %}).
 
