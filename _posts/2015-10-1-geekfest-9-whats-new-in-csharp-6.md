@@ -4,7 +4,7 @@ title: "GeekFest #9 - What's new in C# 6"
 author: Fanie Reynders
 tags:
 - Microsoft
-- C# 6
+- "C# 6"
 - Roslyn
 - .NET
 ---
