@@ -16,8 +16,8 @@ We chat to .NET MVP Jalpesh Vadgama about some of the new features that was rele
 
 #### Links
 
-- (Sample code)[https://github.com/dotnetjalps/LatestCSharpFeatures]
-- (C# 6 & VB 14 Feature roadmap)[https://github.com/dotnet/roslyn/wiki/Languages-features-in-C%23-6-and-VB-14]
+- [Sample code](https://github.com/dotnetjalps/LatestCSharpFeatures)
+- [C# 6 & VB 14 Feature roadmap](https://github.com/dotnet/roslyn/wiki/Languages-features-in-C%23-6-and-VB-14)
 
 Follow [@jalpesh](https://twitter.com/jalpesh) or visit [http://www.dotnetjalps.com/](http://www.dotnetjalps.com/)
 
