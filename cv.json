@@ -1,4 +1,5 @@
 {
+  "$schema": "http://json.schemastore.org/resume",
   "basics": {
     "name": "Fanie Reynders",
     "label": "Technical Consultant",
@@ -6,7 +7,7 @@
     "email": "fanie@reynders.co",
     "phone": "+31616326792",
     "website": "http://reynders.co",
-    "summary": "For just over a decade, I’ve developed my passion for crafting software, focusing mostly on the Microsoft stack. I’m a dedicated and motivated Microsoft Certified Professional as well as a Microsoft Visual Studio and Development Technologies Most Valued Professional (MVP), who is focused on getting the job done the right way. I absolutely love crafting software and try to push technology to its limits. In my free time I find myself constantly researching, blogging, tweeting, sharing knowledge and speaking at user groups & conferences.",
+    "summary": "For just over a decade, I’ve developed my passion for crafting software, focusing mostly on the Microsoft stack. I’m a dedicated and motivated Microsoft Certified Professional as well as a Microsoft Visual Studio and Development Technologies Most Valued Professional (MVP), who is focused on getting the job done the right way. I absolutely love creating software and try to push technology to its limits. In my free time I find myself constantly researching, blogging, tweeting, sharing knowledge and speaking at user groups & conferences.",
     "location": {
       "address": "Wethouder Hollaan 50",
       "postalCode": "3984KD",
@@ -59,7 +60,23 @@
   },
   "work": [
     {
-      "company": "Rabobank",
+      "company": "Fixx IT",
+      "position": "Solutions Architecht",
+      "website": "http://www.rabobank.nl",
+      "startDate": "2014-06-01",
+      "endDate": "",
+      "summary": "Fixx IT is mainly a detachering company focussed on placing current employees at clients who can benefit from their skills and also builds in-house projects. One of the most recent projects is \"Wheely Online\": A powerful platform for searching & comparing cars in both the private and commercial sector, detailing transparent insights on how costs are calculated.",
+      "highlights": [
+        "Delivered a great Continuous Integration experience by verifying code with automated builds & tests",
+        "Continuous Deployment across many environments",
+        "Implemented cloud-ready infrastructure that can scale",
+        "Produced LEAN software driven by plenty of POCs",
+        "Followed agile methodologies, like SCRUM & Kanban",
+        "Implemented on .NET Core, Microsoft's new cross platform framework"
+      ]
+    },
+    {
+      "company": "Rabobank (via Fixx IT)",
       "position": "Senior Developer",
       "website": "http://www.rabobank.nl",
       "startDate": "2016-03-02",
@@ -68,93 +85,416 @@
       "highlights": [
         "Code refactoring",
         "Stabilization and optimization of processes",
-        "Code reviews"
+        "Code reviews",
+        "Maintenance development"
       ]
+    },
+    {
+      "company": "AgroVision (via Fixx IT)",
+      "position": "Technical Consultant",
+      "website": "http://www.agrovision.nl",
+      "startDate": "2014-06-01",
+      "endDate": "2014-12-31",
+      "summary": "AgroVision supplies specialised software for the international agricultural sector. Working specifically in the Crops division, my role as Senior Developer contributed to delivering high quality software used by their clients in the field. More information here: http://www.cropvision.nl",
+      "highlights": [
+        "Code reviews",
+        "Implemented integrations from external systems",
+        "Maintenance development"
+      ]
+    },
+    {
+      "company": "Dariel Solutions",
+      "position": "Technical Consultant",
+      "website": "http://www.dariel.co.za",
+      "startDate": "2014-02-01",
+      "endDate": "2014-04-30",
+      "summary": "Dariel Solutions is a proudly South African company focused on creating world-class bespoke software architecture, designed to solve their clients' specific needs. My role as Senior Developer helped the team develop a robust web-based portal for automating daily incoming policies for one of their clients. Read more on the use case here: http://dariel.co.za/casestudy/leppard-underwriting-web-application",
+      "highlights": [
+        "Code reviews",
+        "Implemented integrations from external systems",
+        "Maintenance development",
+        "Performed an audit of one of their client's current system"
+      ]
+    },
+    {
+      "company": "EOH Microsoft Services",
+      "position": "Development Team Lead",
+      "website": "http://www.eohamp.co.za/",
+      "startDate": "2009-03-01",
+      "endDate": "2014-01-31",
+      "summary": "EOH Microsoft Services consists of a team of over 500 Microsoft Certified Professionals that understands the impact of your Microsoft Solutions on your organisation's bottom line.",
+      "highlights": [
+        "Assited with dialy code reviews",
+        "Performed software audits for some of the clients",
+        "Organized internal knowledge sharing sessions for mentoring fellow developers",
+        "Responsible for reasearch and development for a few projects",
+        "Research and apply best practices across teams"
+      ]
+    },
+    {
+      "company": "Momentum Outcome-based Solutions (via EOH)",
+      "position": "Senior Software Developer / Technical Lead",
+      "website": "http://www.momentuminv.co.za/MomentumOutcome-basedSolutions_Home/",
+      "startDate": "2009-03-01",
+      "endDate": "2014-01-31",
+      "summary": "Momentum Outcome-based Solutions (formerly Momentum Manager of Managers) was born from Advantage Asset Managers (Pty) Ltd, which was established on 1 January 2005 as a result of the merger of two prominent South African multi-managers, evolving from roots that extend as far back as 1994. My role as Technical Team Lead consisted of being a hands-on programmer within a team of 6 software developers who focused on delivering robust solutions to the client, not compromising on the quality of the solution. At the time the client was busy with migration projects from legacy systems.",
+      "highlights": [
+        "Assited with dialy code reviews",
+        "Involved with implementing best-practise architectures that are fit for purpose",
+        "Mentoring of fellow developers",
+        "Insuring on time delivery",
+        "Facilitating system design workshops using requirements gathered from end-users."
+      ]
+    },
+    {
+      "company": "Buphe Management",
+      "position": "Technical Consultant / Software Architect",
+      "website": "http://www.buphe.com/",
+      "startDate": "2009-12-01",
+      "endDate": "2011-12-11",
+      "summary": "Founded in 2004 on the principles of affording top class healthcare to Africans, Buphe is committed to assisting Africans in the provision and access to better Healthcare. Buphe required a web-based back-office system for managing the administration around patient and treatment management. I consulted as Software Architect and implemented the initial version from the given requirements at the time.",
+      "highlights": [
+        "Automated & streamlined medical insurance applications",
+        "Making healthcare more accessible by using a web-based client",
+        "Implemented overal architecture and design"
+      ]
+    },
+    {
+      "company": "Great Stock",
+      "position": "Software Developer / Team Lead",
+      "website": "http://www.greatstock.co.za/",
+      "startDate": "2010-03-01",
+      "endDate": "2010-08-31",
+      "summary": "Greatstock has evolved from its early roots in producing award-winning cinema and TV commercials in the early eighties to become an integrated visual resource company. Their clients are mostly professionals in the advertising, marketing, design, production and publishing segments of local and international markets. My role consisted of being a developer focused on completing a search engine for photo and video footage as well as managaging a small team focused on other projects in the company.",
+      "highlights": [
+        "Implemented integrations to streamline the import and digest of bulk images and film footage metadata",
+        "Involved with the core design of the search and ranking engine",
+        "Worked together with the designers to deliver a great user experience"
+      ]
+    },
+    {
+      "company": "Compu-Clearing",
+      "position": "Software Developer",
+      "website": "http://www.compuclearing.za.com/",
+      "startDate": "2007-06-01",
+      "endDate": "2009-02-27",
+      "summary": "Compu-Clearing is South Africa's industry leader in providing Information Technology products and services to Customs Clearing. During my time at Compu-Clearing I worked on numerous systems, mainly doing support and maintenance work. At a later stage I was tasked to create new web-based system to help with easily issuing air freight bills to their clients."
+    },
+    {
+      "company": "Cannibal Property Development",
+      "position": "Software Developer",      
+      "startDate": "2005-06-01",
+      "endDate": "2005-10-12",
+      "summary": "Cannibal is a small real estate and property developer situated Western Johannesburg and required a system for use by their back office staff for managing monthly rental administration. My role as Software Developer was to develop & deliver this system within the requirements  supplied."
+    },
+    {
+      "company": "C3 Specialists",
+      "position": "Software Developer",
+      "website": "http://www.c3specialists.com.au/",
+      "startDate": "2006-06-01",
+      "endDate": "2007-04-25",
+      "summary": "C3Specialists specialises in the design, analysis and investigation of Power & Industrial plant structures as well as Forensic engineering of all structural failures and defects and operate internationally. I was tasked to help build a module for interfacing with existing systems to help the engineer with analysis."
     }
   ],
   "volunteer": [
     {
-      "organization": "CoderDojo",
-      "position": "Teacher",
-      "website": "https://coderdojo.com/",
-      "startDate": "2012-01-01",
-      "endDate": "2013-01-01",
-      "summary": "Global movement of free coding clubs for young people.",
+      "organization": "Global Azure Bootcamp 2016",
+      "position": "Speaker",
+      "website": "https://www.wazug.nl/Event/Details/2035",
+      "startDate": "2016-04-16",
+      "endDate": "2016-04-16",
       "highlights": [
-        "Awarded 'Teacher of the Month'"
+        "Build intellegent bots with IoT on Azure"
       ]
+    },
+    {
+      "organization": "SDN Event",
+      "position": "Speaker",
+      "website": "http://sdn.nl/",
+      "startDate": "2016-04-08",
+      "endDate": "2016-04-08",
+      "highlights": [
+        "Lets build a bot - http://www.sdn.nl/EVENTS/8-april-2016"
+      ]
+    },
+    {
+      "organization": "Global Azure Bootcamp 2015",
+      "position": "Speaker",
+      "website": "http://sdn.nl/",
+      "startDate": "2015-04-16",
+      "endDate": "2015-04-16",
+      "highlights": [
+        "Azure Mobile Services"
+      ]
+    },
+    {
+      "organization": "SDN Event",
+      "position": "Speaker",
+      "website": "http://sdn.nl/",
+      "startDate": "2015-09-11",
+      "endDate": "2015-09-11",
+      "highlights": [
+        "A Lap around Chrome apps and extensions - http://www.sdn.nl/EVENTS/11-september-2015"
+      ]
+    },
+    {
+      "organization": "Fixxup Developer User Group",
+      "position": "Organizer & Speaker",
+      "website": "http://fixxup.nl/",
+      "startDate": "2014-01-01",
+      "endDate": "",
+      "summary": "Fixxup is an initative started to bring good developers together for awesome knowledge sharing sessions to make them even better. This informative evenings is hosted and organized by me as a token to give back to the community.",
+      "highlights": [
+        "Modernize your backend with Azure API Management - http://2015.fixxup.nl/events/modernize-your-backend-with-azure-api-management",
+        "A lap around Chrome apps and extensions - http://2015.fixxup.nl/events/a-lap-around-chrome-apps-and-extensions",
+        ".NET 2015: The next generation open ecosystem - http://2015.fixxup.nl/events/net-2015-the-next-generation-open-ecosystem",
+        "Exploring Azure App Service - http://2015.fixxup.nl/events/exploring-azure-app-service",
+        "MVC in ASP.NET Core: The new kid on the block - http://fixxup.nl/blog/mvc-in-aspnet-core"
+      ]
+    },
+    {
+      "organization": "OSS Project - Expando",
+      "position": "Open source contribution",
+      "startDate": "2014-01-01",
+      "website": "https://atom.io/packages/expando-atom",
+      "endDate": "",
+      "summary": "Expando generates instant data snippets for the Atom editor"
+    },
+    {
+      "organization": "OSS Project - WebApiProxy",
+      "position": "Open source contribution",
+      "startDate": "2012-01-01",
+      "website": "https://github.com/faniereynders/WebApiProxy",
+      "endDate": "",
+      "summary": "WebApiProxy is one of my hobby projects specifically designed for ASP.NET Web APIs. Unlike WCF with SOAP, RESTful services don't have the luxury of metadata for simply just adding a service reference. WebApiProxy solves this problem by extending your existing WebAPI with an additional endpoint for serving metadata which describes your service. Out of the box it comes with a server managed JavaScript client library as well as a handy C# generator to generate strongly-typed client libraries upon build or on demand."
+    },
+    {
+      "organization": "MasterDev",
+      "position": "Organizer & Judge",
+      "startDate": "2011-01-01",
+      "endDate": "2012-12-20",
+      "summary": "MasterDev is a spin off from the famous cooking competition \"Master Chef\", but for developers. At each session contestants are divided into random groups and compete against each other to win a range of prizes sponsored by Microsoft and Nokia."
     }
   ],
   "education": [
     {
-      "institution": "University of Oklahoma",
-      "area": "Information Technology",
-      "studyType": "Bachelor",
-      "startDate": "2011-06-01",
-      "endDate": "2014-01-01",
-      "gpa": "4.0",
+      "institution": "Bytes People Solutions",
+      "studyType": "Certification",
+      "startDate": "2008-03-01",
+      "endDate": "2008-03-01",
+      "area": "BizTalk",
       "courses": [
-        "DB1101 - Basic SQL",
-        "CS2011 - Java Introduction"
+        "Managing & Deploying BizTalk"
       ]
+    },
+    {
+      "institution": "Microsoft",
+      "studyType": "Certification",
+      "startDate": "2012-01-01",
+      "endDate": "2013-03-01",
+      "area": "Microsoft Certified Professional",
+      "courses": [
+        "D969-1917 - MCTS: .NET Framework 4, Web Applications",
+        "E195-1139 - MCTS: .NET Framework 4, Data Access",
+        "E190-1659 - MCTS: .NET Framework 4, Service Communication Applications",
+        "E206-8592 - MCPD: Web Developer 4"
+      ]
+    },
+    {
+      "institution": "Tshwane University of Technology",
+      "area": "Information Technology: Software Development",
+      "studyType": "Diploma (HBO equivalent)",
+      "startDate": "2004-01-01",
+      "endDate": "2006-11-01"
+    },
+    {
+      "institution": "Ben Vorster Highschool",
+      "studyType": "Senior Certificate (NHC)"
     }
   ],
   "awards": [
     {
-      "title": "Digital Compression Pioneer Award",
-      "date": "2014-11-01",
-      "awarder": "Techcrunch",
-      "summary": "There is no spoon."
+      "title": "Microsoft .NET MVP 2015",
+      "date": "2015-10-01",
+      "awarder": "Microsoft",
+      "summary": "This award is given to exceptional technical community leaders who actively share their high quality, real world expertise with others. The Microsoft MVP Award provides us the unique opportunity to celebrate and honour your significant contributions."
+    },
+    {
+      "title": "Microsoft C# MVP 2014",
+      "date": "2014-10-01",
+      "awarder": "Microsoft",
+      "summary": "For more than two decades, Microsoft has recognized exceptional, independent community leaders who share their passion, technical expertise, and real-world knowledge of Microsoft products with others. It is part of Microsoft’s commitment to supporting and enriching technical communities."
     }
   ],
   "publications": [
     {
-      "name": "Video compression for 3d media",
-      "publisher": "Hooli",
-      "releaseDate": "2014-10-01",
-      "website": "https://en.wikipedia.org/wiki/Silicon_Valley_(TV_series)",
-      "summary": "Innovative middle-out compression algorithm that changes the way we store data."
+      "name": "SDN Magazine 128 - Docfx helps us make documentation easier for .NET",
+      "publisher": "SDN",
+      "releaseDate": "2016-03-21",
+      "website": "http://sdn.nl/MAGAZINE/ID/1175/SDN-Magazine-128",
+      "summary": "Write-up on a documentation generator for .NET called Docfx"
+    },
+    {
+      "name": "SDN Magazine 128 - Migrate a .csproj from package.config to project.json",
+      "publisher": "SDN",
+      "releaseDate": "2016-03-21",
+      "website": "http://sdn.nl/MAGAZINE/ID/1175/SDN-Magazine-128",
+      "summary": "A quick tutorial on how to migrate from Nuget 2 to 3 package systems."
+    },
+    {
+      "name": "SDN Magazine 126 - Exploring Azure App Service",
+      "publisher": "SDN",
+      "releaseDate": "2015-05-21",
+      "website": "http://sdn.nl/MAGAZINE/ID/132/SDN-Magazine-125",
+      "summary": "An overview of Azure App Service"
+    },
+    {
+      "name": "RESTful Services with ASP.NET Web API",
+      "publisher": "Packt Publishing",
+      "releaseDate": "2014-02-26",
+      "website": "http://www.packtpub.com/restful-services-with-aspnet-web-api/video",
+      "summary": "Today, apps are everywhere, and most of these apps run on complex cloud-based backends. ASP.NET Web API allows you to easily create and deploy Web APIs to be consumed in a RESTful manner by developers to build rich and interactive applications. This video course is a great starting point for any web developer who wants to create simple web APIs in minutes. By applying your knowledge of ASP.NET in conjunction with the information provided in this video tutorial, you will learn to master the art of building RESTful services by example."
+    },
+    {
+      "name": "DNC Magazine: Remember you Hot Towel when going to the SPA",
+      "publisher": "DNC Magazine",
+      "releaseDate": "2013-06-2",
+      "website": "http://www.dotnetcurry.com/magazine/dnc-magazine-issue6.aspx",
+      "summary": "Using the Hot Towel template in your Single Page Apps."
     }
   ],
   "skills": [
     {
       "name": "Web Development",
-      "level": "Master",
+      "level": "Senior",
       "keywords": [
-        "HTML",
-        "CSS",
-        "Javascript"
+        "HTML5",
+        "CSS 3",
+        "JavaScript",
+        "ASP.NET Core",
+        "ASP.NET",
+        "WebForms",
+        "SignalR",
+        "MVC",
+        "Razor",
+        "Tag Helpers",
+        "Single Page Applications",
+        "AngularJs",
+        "KnockoutJs",
+        "Ionic",
+        "JQuery",
+        "JQuery Mobile",
+        "TypeScript",
+        "Bootstrap",
+        "WCF",
+        "Web Services"
       ]
     },
     {
-      "name": "Compression",
-      "level": "Master",
+      "name": "Cloud (Azure)",
+      "level": "Senior",
       "keywords": [
-        "Mpeg",
-        "MP4",
-        "GIF"
+        "Web Apps",
+        "Mobile Apps",
+        "Logic Apps",
+        "API Apps",
+        "API Management",
+        "Cloud Services",
+        "Application Insights",
+        "Cognative Services",
+        "Microsoft Bot Framework",
+        "Notification Hubs",
+        "Power BI",
+        "Kudu",
+        "Search Services",
+        "IoT Hubs",
+        "Event Hubs",
+        "BLOB Storage",
+        "Queue Storage",
+        "File Storage",
+        "VMs",
+        "Active Directory",
+        "Azure SQL",
+        "Schedulers",
+        "Web Jobs",
+        "Team Projects"
+      ]
+    },
+    {
+      "name": "Design & Architectual",
+      "level": "Intermediate",
+      "keywords": [
+        "Unit of Work",
+        "Repository Pattern",
+        "Service Locator Pattern",
+        "Dependency Injection",
+        "Inversion of Control",
+        "Object Oriented Design",
+        "Ninject",
+        "Unity",
+        "MEF",
+        "Castle Windsor",
+        "Domain Driven Design",
+        "Decorator Pattern"
+      ]
+    },
+    {
+      "name": "Data Frameworks & Technologies",
+      "level": "Intermediate",
+      "keywords": [
+        "SQL",
+        "Entity Framework",
+        "Entity Modelling",
+        "T-SQL"
+      ]
+    },
+    {
+      "name": "Other platforms & Languages",
+      "level": "Senior",
+      "keywords": [
+        ".NET",
+        ".NET Core",
+        "C#",
+        "VB.NET",
+        "F#",
+        "Windows Workflow Foundation",
+        "Visual Studio",
+        "LINQ",
+        "Roslyn"
+      ]
+    },
+    {
+      "name": "Application Life Cycle",
+      "level": "Senior",
+      "keywords": [
+        "SCRUM",
+        "Agile",
+        "Visual Studio Team Services",
+        "Continuous Integration",
+        "Continuous Delivery",
+        "TFS",
+        "Git"
       ]
     }
   ],
   "languages": [
     {
+      "language": "Afrikaans",
+      "fluency": "Native"
+    },
+    {
       "language": "English",
-      "fluency": "Native speaker"
+      "fluency": "Professional working proficiency"
+    },
+    {
+      "language": "Dutch",
+      "fluency": "Professional working proficiency"
     }
   ],
   "interests": [
-    {
-      "name": "Wildlife",
-      "keywords": [
-        "Ferrets",
-        "Unicorns"
-      ]
-    }
+    
   ],
   "references": [
-    {
-      "name": "Erlich Bachman",
-      "reference": "It is my pleasure to recommend Richard, his performance working as a consultant for Main St. Company proved that he will be a valuable addition to any company."
-    }
+    
   ]
 }
