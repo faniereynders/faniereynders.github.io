@@ -3,9 +3,9 @@
   "basics": {
     "name": "Fanie Reynders",
     "label": "Technical Consultant",
-    "picture": "http://reynders.co/me",
+    "picture": "http://reynders.co/content/images/2016/05/me.png",
     "email": "fanie@reynders.co",
-    "phone": "+31616326792",
+   
     "website": "http://reynders.co",
     "summary": "For just over a decade, I’ve developed my passion for crafting software, focusing mostly on the Microsoft stack. I’m a dedicated and motivated Microsoft Certified Professional as well as a Microsoft Visual Studio and Development Technologies Most Valued Professional (MVP), who is focused on getting the job done the right way. I absolutely love creating software and try to push technology to its limits. In my free time I find myself constantly researching, blogging, tweeting, sharing knowledge and speaking at user groups & conferences.",
     "location": {
@@ -62,9 +62,9 @@
     {
       "company": "Fixx IT",
       "position": "Solutions Architecht",
-      "website": "http://www.rabobank.nl",
+      "website": "http://fixx.it",
       "startDate": "2014-06-01",
-      "endDate": "",
+      
       "summary": "Fixx IT is mainly a detachering company focussed on placing current employees at clients who can benefit from their skills and also builds in-house projects. One of the most recent projects is \"Wheely Online\": A powerful platform for searching & comparing cars in both the private and commercial sector, detailing transparent insights on how costs are calculated.",
       "highlights": [
         "Delivered a great Continuous Integration experience by verifying code with automated builds & tests",
@@ -80,7 +80,7 @@
       "position": "Senior Developer",
       "website": "http://www.rabobank.nl",
       "startDate": "2016-03-02",
-      "endDate": "",
+      
       "summary": "Rabobank is one of the biggest banks in The Netherlands and consists of multiple cross functional teams. My role as Senior Developer played an influential role within one of the teams in the Investments sector and was responsible for mainly maintenance development which consisted of new features, stabilization and optimization of the current processes.",
       "highlights": [
         "Code refactoring",
@@ -242,7 +242,7 @@
       "position": "Organizer & Speaker",
       "website": "http://fixxup.nl/",
       "startDate": "2014-01-01",
-      "endDate": "",
+     
       "summary": "Fixxup is an initative started to bring good developers together for awesome knowledge sharing sessions to make them even better. This informative evenings is hosted and organized by me as a token to give back to the community.",
       "highlights": [
         "Modernize your backend with Azure API Management - http://2015.fixxup.nl/events/modernize-your-backend-with-azure-api-management",
@@ -257,7 +257,7 @@
       "position": "Open source contribution",
       "startDate": "2014-01-01",
       "website": "https://atom.io/packages/expando-atom",
-      "endDate": "",
+      
       "summary": "Expando generates instant data snippets for the Atom editor"
     },
     {
@@ -265,7 +265,7 @@
       "position": "Open source contribution",
       "startDate": "2012-01-01",
       "website": "https://github.com/faniereynders/WebApiProxy",
-      "endDate": "",
+      
       "summary": "WebApiProxy is one of my hobby projects specifically designed for ASP.NET Web APIs. Unlike WCF with SOAP, RESTful services don't have the luxury of metadata for simply just adding a service reference. WebApiProxy solves this problem by extending your existing WebAPI with an additional endpoint for serving metadata which describes your service. Out of the box it comes with a server managed JavaScript client library as well as a handy C# generator to generate strongly-typed client libraries upon build or on demand."
     },
     {
