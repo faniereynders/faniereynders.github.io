@@ -2,8 +2,8 @@
   "$schema": "http://json.schemastore.org/resume",
   "basics": {
     "name": "Fanie Reynders",
-    "label": "Technical Consultant",
-    "picture": "http://reynders.co/content/images/2016/05/me.png",
+    "label": "Software Engineer",
+    "picture": "http://reynders.co/me",
     "email": "fanie@reynders.co",
    
     "website": "http://reynders.co",
@@ -91,7 +91,7 @@
     },
     {
       "company": "AgroVision (via Fixx IT)",
-      "position": "Technical Consultant",
+      "position": "Software Engineer",
       "website": "http://www.agrovision.nl",
       "startDate": "2014-06-01",
       "endDate": "2014-12-31",
@@ -104,7 +104,7 @@
     },
     {
       "company": "Dariel Solutions",
-      "position": "Technical Consultant",
+      "position": "Software Engineer",
       "website": "http://www.dariel.co.za",
       "startDate": "2014-02-01",
       "endDate": "2014-04-30",
@@ -148,7 +148,7 @@
     },
     {
       "company": "Buphe Management",
-      "position": "Technical Consultant / Software Architect",
+      "position": "Software Engineer / Architect",
       "website": "http://www.buphe.com/",
       "startDate": "2009-12-01",
       "endDate": "2011-12-11",
