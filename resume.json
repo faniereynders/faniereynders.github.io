@@ -2,7 +2,7 @@
   "$schema": "http://json.schemastore.org/resume",
   "basics": {
     "name": "Fanie Reynders",
-    "label": "Software Engineer",
+    "label": "Software Engineer & Solutions Architect",
     "picture": "http://reynders.co/avatar",
     "email": "fanie@reynders.co",
    
@@ -77,7 +77,7 @@
     },
     {
       "company": "Rabobank (via Fixx IT)",
-      "position": "Senior Developer",
+      "position": "Software Engineer / Consultant",
       "website": "http://www.rabobank.nl",
       "startDate": "2016-03-02",
       
@@ -91,7 +91,7 @@
     },
     {
       "company": "AgroVision (via Fixx IT)",
-      "position": "Software Engineer",
+      "position": "Software Engineer / Consultant",
       "website": "http://www.agrovision.nl",
       "startDate": "2014-06-01",
       "endDate": "2014-12-31",
@@ -104,7 +104,7 @@
     },
     {
       "company": "Dariel Solutions",
-      "position": "Software Engineer",
+      "position": "Software Engineer / Consultant",
       "website": "http://www.dariel.co.za",
       "startDate": "2014-02-01",
       "endDate": "2014-04-30",
@@ -133,7 +133,7 @@
     },
     {
       "company": "Momentum Outcome-based Solutions (via EOH)",
-      "position": "Senior Software Developer / Technical Lead",
+      "position": "Senior Software Engineer / Technical Lead",
       "website": "http://www.momentuminv.co.za/MomentumOutcome-basedSolutions_Home/",
       "startDate": "2009-03-01",
       "endDate": "2014-01-31",
@@ -303,13 +303,20 @@
     {
       "institution": "Tshwane University of Technology",
       "area": "Information Technology: Software Development",
-      "studyType": "Diploma (HBO equivalent)",
+      "studyType": "Diploma (3 years of HBO)",
       "startDate": "2004-01-01",
       "endDate": "2006-11-01"
     },
     {
       "institution": "Ben Vorster Highschool",
-      "studyType": "Senior Certificate (NHC)"
+      "studyType": "National Senior Certificate (HAVO)",
+      "startDate": "2002-01-01",
+      "endDate": "2003-12-01"
+    },
+    {
+      "institution": "Breinlyn Private School",
+      "startDate": "1999-01-01",
+      "endDate": "2001-12-01"
     }
   ],
   "awards": [
@@ -492,6 +499,32 @@
     }
   ],
   "interests": [
+    {
+      "name": "Family & Social",
+      "keywords": [
+        "Puzzles & Boardgames",
+        "Biking",
+        "Walking",
+        "Travelling"
+      ]
+    },
+    {
+      "name": "Internet of Things",
+      "keywords": [
+        "Raspberry Pi",
+        "IoT",
+        "Cloud"
+      ]
+    },
+    {
+      "name": "Community",
+      "keywords": [
+        "Public speaking",
+        "Hackathons",
+        "Research",
+        "Proof of concepts"
+      ]
+    }
     
   ],
   "references": [
