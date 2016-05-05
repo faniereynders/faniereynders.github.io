@@ -61,11 +61,11 @@
   "work": [
     {
       "company": "Fixx IT",
-      "position": "Solutions Architecht",
+      "position": "Solutions Architect",
       "website": "http://fixx.it",
       "startDate": "2014-06-01",
       
-      "summary": "Fixx IT is mainly a detachering company focussed on placing current employees at clients who can benefit from their skills and also builds in-house projects. One of the most recent projects is \"Wheely Online\": A powerful platform for searching & comparing cars in both the private and commercial sector, detailing transparent insights on how costs are calculated.",
+      "summary": "Fixx IT is mainly a 'detachering' company focused on placing current employees at clients who can benefit from their skills and also builds in-house projects. One of the most recent projects is \"Wheely Online\": A powerful platform for searching & comparing cars in both the private and commercial sector, detailing transparent insights on how costs are calculated.",
       "highlights": [
         "Delivered a great Continuous Integration experience by verifying code with automated builds & tests",
         "Continuous Deployment across many environments",
@@ -108,13 +108,7 @@
       "website": "http://www.dariel.co.za",
       "startDate": "2014-02-01",
       "endDate": "2014-04-30",
-      "summary": "Dariel Solutions is a proudly South African company focused on creating world-class bespoke software architecture, designed to solve their clients' specific needs. My role as Senior Developer helped the team develop a robust web-based portal for automating daily incoming policies for one of their clients. Read more on the use case here: http://dariel.co.za/casestudy/leppard-underwriting-web-application",
-      "highlights": [
-        "Code reviews",
-        "Implemented integrations from external systems",
-        "Maintenance development",
-        "Performed an audit of one of their client's current system"
-      ]
+      "summary": "Dariel Solutions is a proudly South African company focused on creating world-class bespoke software architecture, designed to solve their clients' specific needs. My role as Senior Developer helped the team develop a robust web-based portal for automating daily incoming policies for one of their clients. Read more on the use case here: http://dariel.co.za/casestudy/leppard-underwriting-web-application"
     },
     {
       "company": "EOH Microsoft Services",
@@ -124,10 +118,10 @@
       "endDate": "2014-01-31",
       "summary": "EOH Microsoft Services consists of a team of over 500 Microsoft Certified Professionals that understands the impact of your Microsoft Solutions on your organisation's bottom line.",
       "highlights": [
-        "Assited with dialy code reviews",
+        "Assisted with daily code reviews",
         "Performed software audits for some of the clients",
         "Organized internal knowledge sharing sessions for mentoring fellow developers",
-        "Responsible for reasearch and development for a few projects",
+        "Responsible for research and development for a few projects",
         "Research and apply best practices across teams"
       ]
     },
@@ -140,7 +134,7 @@
       "summary": "Momentum Outcome-based Solutions (formerly Momentum Manager of Managers) was born from Advantage Asset Managers (Pty) Ltd, which was established on 1 January 2005 as a result of the merger of two prominent South African multi-managers, evolving from roots that extend as far back as 1994. My role as Technical Team Lead consisted of being a hands-on programmer within a team of 6 software developers who focused on delivering robust solutions to the client, not compromising on the quality of the solution. At the time the client was busy with migration projects from legacy systems.",
       "highlights": [
         "Assited with dialy code reviews",
-        "Involved with implementing best-practise architectures that are fit for purpose",
+        "Involved with implementing best-practice architectures that are fit for purpose",
         "Mentoring of fellow developers",
         "Insuring on time delivery",
         "Facilitating system design workshops using requirements gathered from end-users."
@@ -160,7 +154,7 @@
       ]
     },
     {
-      "company": "Great Stock",
+      "company": "Greatstock",
       "position": "Software Developer / Team Lead",
       "website": "http://www.greatstock.co.za/",
       "startDate": "2010-03-01",
@@ -185,7 +179,7 @@
       "position": "Software Developer",      
       "startDate": "2005-06-01",
       "endDate": "2005-10-12",
-      "summary": "Cannibal is a small real estate and property developer situated Western Johannesburg and required a system for use by their back office staff for managing monthly rental administration. My role as Software Developer was to develop & deliver this system within the requirements  supplied."
+      "summary": "Cannibal is a small real estate and property developer situated Western Johannesburg and required a system for use by their back office staff for managing monthly rental administration. My role as Software Developer was to develop & deliver this system within the requirements supplied."
     },
     {
       "company": "C3 Specialists",
@@ -204,7 +198,7 @@
       "startDate": "2016-04-16",
       "endDate": "2016-04-16",
       "highlights": [
-        "Build intellegent bots with IoT on Azure"
+        "Build intelligent bots with IoT on Azure"
       ]
     },
     {
@@ -243,7 +237,7 @@
       "website": "http://fixxup.nl/",
       "startDate": "2014-01-01",
      
-      "summary": "Fixxup is an initative started to bring good developers together for awesome knowledge sharing sessions to make them even better. This informative evenings is hosted and organized by me as a token to give back to the community.",
+      "summary": "Fixxup is an initative started to bring good developers together for awesome knowledge sharing sessions to make them even better. These informative evenings is hosted and organized by me as a token to give back to the community.",
       "highlights": [
         "Modernize your backend with Azure API Management - http://2015.fixxup.nl/events/modernize-your-backend-with-azure-api-management",
         "A lap around Chrome apps and extensions - http://2015.fixxup.nl/events/a-lap-around-chrome-apps-and-extensions",
@@ -360,7 +354,7 @@
       "publisher": "Packt Publishing",
       "releaseDate": "2014-02-26",
       "website": "http://www.packtpub.com/restful-services-with-aspnet-web-api/video",
-      "summary": "Today, apps are everywhere, and most of these apps run on complex cloud-based backends. ASP.NET Web API allows you to easily create and deploy Web APIs to be consumed in a RESTful manner by developers to build rich and interactive applications. This video course is a great starting point for any web developer who wants to create simple web APIs in minutes. By applying your knowledge of ASP.NET in conjunction with the information provided in this video tutorial, you will learn to master the art of building RESTful services by example."
+      "summary": "Today, apps are everywhere, and most of these apps run on complex cloud-based back-ends. ASP.NET Web API allows you to easily create and deploy Web APIs to be consumed in a RESTful manner by developers to build rich and interactive applications. This video course is a great starting point for any web developer who wants to create simple web APIs in minutes. By applying your knowledge of ASP.NET in conjunction with the information provided in this video tutorial, you will learn to master the art of building RESTful services by example."
     },
     {
       "name": "DNC Magazine: Remember you Hot Towel when going to the SPA",
