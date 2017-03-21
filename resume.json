@@ -60,11 +60,26 @@
   },
   "work": [
     {
+      "company": "Deloitte Digital",
+      "position": "Senior Consultant Engineering",
+      "website": "https://www.deloittedigital.com",
+      "startDate": "2016-11-01",
+      
+      "summary": "From digital evolution to revolution, from strategy to delivery, Deloitte Digital provides the capabilities to support organizations in the digital era. Part business, part creative, part technology, one hundred percent digital.",
+      "highlights": [
+        "Digital transformation of client's website and processes",
+        "Mentoring multiple teams on latest technologies and standards",
+        "Modernization of current code base",
+        "Stabilization and optimization of processes",
+        "Applied agile methodologies - SCRUM"
+      ]
+    },
+    {
       "company": "Fixx IT",
       "position": "Solutions Architect",
       "website": "http://fixx.it",
       "startDate": "2014-06-01",
-      
+      "endDate": "2016-10-31",
       "summary": "Fixx IT is mainly a 'detachering' company focused on placing current employees at clients who can benefit from their skills and also builds in-house projects. One of the most recent projects is \"Wheely Online\": A powerful platform for searching & comparing cars in both the private and commercial sector, detailing transparent insights on how costs are calculated.",
       "highlights": [
         "Delivered a great Continuous Integration experience by verifying code with automated builds & tests",
@@ -80,7 +95,7 @@
       "position": "Software Engineer / Consultant",
       "website": "http://www.rabobank.nl",
       "startDate": "2016-03-02",
-      
+      "endDate": "2016-10-31",
       "summary": "Rabobank is one of the biggest banks in The Netherlands and consists of multiple cross functional teams. My role as Senior Developer played an influential role within one of the teams in the Investments sector and was responsible for mainly maintenance development which consisted of new features, stabilization and optimization of the current processes.",
       "highlights": [
         "Code refactoring",
