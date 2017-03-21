@@ -1,0 +1,1 @@
+resume export cv.pdf --format pdf --theme slicker
